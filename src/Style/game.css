@@ -1,0 +1,147 @@
+.red-line{
+    width: 7px;
+    position:relative;
+    background: red;
+    border-radius: 5px;
+    z-index: 3;
+}
+.red-line-location-0{
+    top: -72px;
+    left: 169px;
+    height: 250px;
+    transform: rotate(-90deg);
+}
+.red-line-location-1{
+    top: 29px;
+    left: 169px;
+    height: 250px;
+    transform: rotate(-90deg);
+}
+.red-line-location-2{
+    top: 129px;
+    left: 169px;
+    height: 250px;
+    transform: rotate(-90deg);
+}
+.red-line-location-3{
+    top: 27px;
+    left: 70px;
+    height: 250px;
+}
+.red-line-location-4{
+    top: 27px;
+    left: 169px;
+    height: 250px;
+}
+.red-line-location-5{
+    top: 27px;
+    left: 270px;
+    height: 250px;
+}
+.red-line-location-6{
+    top: 0;
+    left: 163px;
+    height: 300px;
+    transform: rotate(-45deg);
+}
+.red-line-location-7{
+    top: 4px;
+    left: 166px;
+    height: 300px;
+    transform: rotate(45deg);
+}
+.violet-border-1 {
+    height: 320px;
+    width: 4px;
+    position:relative;
+    top: -60px;
+    left: 163px;
+    background: violet;
+    border-radius: 3px;
+    transform: rotate(-90deg);
+    z-index: 2;
+}
+.violet-border-2 {
+    height: 320px;
+    width: 4px;
+    position:relative;
+    top: 40px;
+    left: 160px;
+    background: violet;
+    border-radius: 3px;
+    transform: rotate(-90deg);
+    z-index: 2;
+}
+.violet-border-3 {
+    height: 320px;
+    width: 4px;
+    position:relative;
+    top: -9px;
+    left: 106px;
+    background: violet;
+    border-radius: 3px;
+    z-index: 2;
+}
+.violet-border-4 {
+    height: 320px;
+    width: 4px;
+    position:relative;
+    top: -8px;
+    left: 202px;
+    background: violet;
+    border-radius: 3px;
+    z-index: 2;
+}
+.tic-tac-toe {
+    height: 300px;
+    width: 300px;
+    background: rgb(107, 101, 131);
+}
+.ttt-grid {
+    height: 100px;
+    width: 100px;
+    border: 2px solid rgb(107, 101, 131);
+    float: left;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+.game-counter {
+    margin-left: 50px;
+    font-size: 22px;
+    color: white;
+}
+.x-elem {
+    height: 100px;
+    width: 100px;
+    position: relative;
+}
+
+.x-elem:after {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    content: "\2573"; /* use the hex value here... */
+    font-size: 65px; 
+    color: rgb(156, 156, 156);
+    line-height: 100px;
+    text-align: center;
+}
+.O-elem{
+    height: 100px;
+    width: 100px;
+    position: relative;
+}
+.O-elem:after {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    content: "\3007"; /* use the hex value here... */
+    font-size: 85px; 
+    color: rgb(156, 156, 156);
+    line-height: 100px;
+    text-align: center;
+}

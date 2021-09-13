@@ -1,0 +1,13 @@
+.App {
+    text-align: center;
+}
+.App-logo {
+    height: 10vmin;
+}
+.game-wrapper {
+    display: flex;
+    justify-content: center;
+    margin: 100px;
+    padding: 30px;
+    background: rgb(106, 105, 107);
+}
